@@ -1,0 +1,12 @@
+.wrap {
+  margin: 50px 0;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+}
+
+.wrapItem {
+  border: 2px solid #111;
+  padding: 20px 20px 0 20px;
+  border-radius: 8px;
+}

@@ -1,0 +1,22 @@
+.tablet {
+  border: 1px solid #111;
+  width: 100%;
+  border-collapse: collapse;
+}
+th {
+  background-color: #312929;
+  color: aliceblue;
+  border: 1px solid #111;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #d4d3d3;
+}
+
+td {
+  font-size: 15px;
+  font-weight: 500;
+  border: 1px solid #111;
+  padding: 8px;
+}
