@@ -1,5 +1,5 @@
-import style from "./UserData.module.css";
-const UserData = ({ name, tag, location, image, status }) => {
+import style from "./Profile.module.css";
+const Profile = ({ name, tag, location, image, status }) => {
   const { followers, views, likes } = status || {};
   return (
     <div className={style.profile}>
@@ -28,4 +28,4 @@ const UserData = ({ name, tag, location, image, status }) => {
   );
 };
 
-export default UserData;
+export default Profile;
